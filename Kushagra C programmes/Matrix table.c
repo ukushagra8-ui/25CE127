@@ -8,12 +8,12 @@ scanf("%d",&col);
 
 printf("\nEnter Row Numbers = ");
 scanf("%d",&row);
-int arr[i][j];
+int arr[row][col];
 printf("\nThe Multiplication Table\n");
 
-for(i=0;i<+row;i++){
+for(i=0;i<row;i++){
 
-for(j=0;j<+col;j++){
+for(j=0;j<col;j++){
 
 printf("%10d",(i+1)*(j+1));
 
@@ -32,3 +32,4 @@ return 0;
 
 
 }
+
