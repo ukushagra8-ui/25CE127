@@ -36,21 +36,13 @@ int main()
     else
     {
         printf("You have entered an invalid amount");
-
-
-
-
-
-
-
-
     }
 
     return 0;
-
-
-
-
-
-
 }
+
+
+
+
+
+
