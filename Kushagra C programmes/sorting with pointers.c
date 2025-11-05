@@ -16,16 +16,16 @@ int main() {
     float price[items];
     float *ptr;
 
-    // Input prices
+   
     for (ptr = price; ptr < &price[items]; ptr++) {
-        printf("Enter price of item %d: ", (int)(ptr - price) + 1);
+        printf("Enter price of item %d: ",ptr - price + 1);
         if (scanf("%f", ptr) != 1) {
             printf("Error: \"Invalid input for price. Please enter numeric values only.\"\n");
             return 1;
         }
     }
 
-    // Sort prices using pointer arithmetic (Bubble Sort)
+    
     for (ptr = price; ptr < &price[items - 1]; ptr++) {
         for (float *j = ptr + 1; j < &price[items]; j++) {
             if (*ptr > *j) {
@@ -36,11 +36,11 @@ int main() {
         }
     }
 
-    // Display sorted prices
-    printf("---Sorted Prices---\n");
+    
+    printf("Sorted Prices: ");
     for (ptr = price; ptr < &price[items]; ptr++) {
-        printf("\t%.2f\n", *ptr);
-        
+        printf("%.2f", *ptr);
+        if (ptr < &price[items - 1]) printf(", ");
     }
     printf("\n");
 
