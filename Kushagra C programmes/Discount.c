@@ -38,6 +38,7 @@ int main()
         printf("You have entered an invalid amount");
     }
 
+    printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
     return 0;
 }
 

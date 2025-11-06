@@ -77,5 +77,6 @@ int main() {
             printf("Your fine is: %d Rs\n", fine);
     }
 
+    printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
     return 0;
 }

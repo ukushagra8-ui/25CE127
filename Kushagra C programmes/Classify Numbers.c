@@ -35,6 +35,7 @@ int main()
     printf("Total Positive Numbers :%d\n",positive);
     printf("Total Negative Numbers :%d\n",negative);
 
+    printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
     return 0;
 
 }

@@ -14,9 +14,8 @@ int main()
         Current_Water_Level+=10;
     }
     printf("Tank Is Full...! Please turn off the tab");
-     printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
 
-
+    printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
     return 0;
 
 

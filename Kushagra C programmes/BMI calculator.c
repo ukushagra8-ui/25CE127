@@ -54,6 +54,7 @@ int main()
         printf("You are in OBESITY category");
 
     }
+    printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
     return 0;
 
 

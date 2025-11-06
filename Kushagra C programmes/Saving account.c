@@ -18,8 +18,7 @@ int main()
     }
     else printf("You have entered invalid age!  Try again.");
 
-      printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
-
+    printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
     return 0;
 
 
