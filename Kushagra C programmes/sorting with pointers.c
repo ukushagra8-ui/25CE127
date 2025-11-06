@@ -57,9 +57,9 @@ int main()
         if (ptr < &price[items - 1]) printf(", ");
     }
     printf("\n");
-
-    printf("ID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
+  printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
 
     return 0;
 }
+
 
