@@ -13,9 +13,9 @@ int main()
     (marks>=70 && marks <80)?printf("You obtained Grade C"):
     (marks>=60 && marks <70)?printf("You obtained Grade D"):
     printf("You obtained Grade F ! Better luck next time") : printf("Invalid marks");
-     printf("ID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
-
+  printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
 
     return 0;
 }
+
 
