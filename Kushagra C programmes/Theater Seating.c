@@ -45,7 +45,10 @@ printf("%c ",seating[i][j]);
 }
 printf("\n");
 }
+
+   printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
  return 0; }
+
 
 
 
