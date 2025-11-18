@@ -13,7 +13,10 @@ sleep(1);
 printf("Minute %d :Distance Covered = %.1f KM\n",minute,distance);
 
 if(distance>=10.0){printf("Marathon Complete!"); break;}
+  
 
 }
+      printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
 return 0;
 }
+
