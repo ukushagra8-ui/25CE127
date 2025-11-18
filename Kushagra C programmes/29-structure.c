@@ -88,5 +88,8 @@ int is_duplicate(struct team teams[], int count, char name[])
         if (strcmp(teams[i].name, name) == 0)
             return 1;
     }
+
+        printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
     return 0;
 }
+
