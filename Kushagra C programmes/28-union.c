@@ -46,6 +46,7 @@ int main() {
     printf("Price: %.2f\n", price);
     printf("Availability: %s\n", issued ? "Issued" : "Not Issued");
 
-    printf("Name: Kushagra Upadhyay\nDepartment: CSPIT CE\nStudent ID: 25CE0127\n");
+    printf("\nName: Kushagra Upadhyay\nDepartment: CSPIT CE\nStudent ID: 25CE0127\n");
     return 0;
+
 }
