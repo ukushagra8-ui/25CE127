@@ -17,10 +17,11 @@ if(new!=0 && new>n){
 puts(str);
 free(str);
 
-
+    printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
 return 0;
 
 
 
 
 }
+
