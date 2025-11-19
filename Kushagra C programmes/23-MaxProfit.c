@@ -1,23 +1,20 @@
 #include <stdio.h>
 #include <limits.h> // Required for INT_MAX
 
-// Function to calculate the maximum profit
+
 int maxProfit(int prices[], int size) {
-    // If we can't make a transaction, profit is 0
+   
     if (size <= 1) {
         return 0;
     }
 
-    int min_price = INT_MAX; // Start with the highest possible integer value
+    int min_price = INT_MAX; 
     int max_profit = 0;
 
-    // Iterate through the prices to find the best buy and sell days
     for (int i = 0; i < size; i++) {
-        // If we find a new lowest price, that's our new potential buy day
         if (prices[i] < min_price) {
             min_price = prices[i];
         }
-        // Otherwise, check if selling today would give us a better profit
         else if (prices[i] - min_price > max_profit) {
             max_profit = prices[i] - min_price;
         }
@@ -67,3 +64,4 @@ int main() {
     printf("\nID:25CE127\nName:Kushagra Vipulkumar Upadhyay\n");
     return 0;
 }
+
